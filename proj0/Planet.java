@@ -37,7 +37,9 @@ public class Planet {
     
     // ## decalre a constant that will be used in the class;
     // ## scienctific 10^-11
-    final static double G = 6.67e-11;
+    //final static double G = 6.67e-11;
+    // ## other using 
+    private static final double G = 6.67E-11;
     
     public double calcForceExertedBy(Planet b) {
         double r = this.calcDistance(b);
