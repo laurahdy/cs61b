@@ -1,6 +1,7 @@
 public class NBody {
     /** Class to run the simulation, have NO constructor 
      * Goal is to simulate a universe specified in one of the data file
+     * some new
     */
 
     // give a filename return a double of the radius of the universe in that file
